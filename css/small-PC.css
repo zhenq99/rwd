@@ -1,0 +1,138 @@
+
+body {
+    margin: 0
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.all {
+    width: 100%;
+    height: 100vh;
+}
+
+.nav {
+    background-color: rgb(185, 162, 127);
+    width: 366px;
+    height: 100vh;
+    float: left;
+    padding-top: 70px;
+    /* position: relative; */
+
+}
+
+.container {
+    background-color: rgb(239, 230, 217);
+    width: calc(100% - 366px);
+    height: 100vh;
+    float: left;
+    position: relative;
+}
+
+.logo {
+   
+    background-image: url(../img/IMG_0267.JPG);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+ 
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 50px;
+
+
+
+}
+
+.btn-area {
+    /* background-color: bisque; */
+    width: 200px;
+    height: 300px;
+    margin: auto;
+
+}
+
+.btn {
+   
+    background-color: brown;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+}
+
+.btn:hover {
+    background-color: rgb(215, 116, 23);
+    color: white;
+   
+}
+
+
+
+.box {
+    width: 800px;
+    height: 570px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.box-x:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.box-y:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.box-z:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.box-x {
+    /* background-color: blue; */
+    background-image: url(../img/IMG_0263.JPG);
+    background-size: contain;
+    width: 100%;
+    height: calc(50% - 2.5px);
+    margin-bottom: 2.5px;
+    float: left;
+
+}
+
+
+.box-y {
+    /* background-color: blue; */
+    background-image: url(../img/IMG_0262.JPG);
+    background-size: cover;
+    width: calc(50% - 2.5px);
+    height: calc(50% - 2.5px);
+    margin-top: 2.5px;
+    margin-right:5px ;
+    float: left;
+    /* margin: 0 5px 0 */
+}
+
+.box-z {
+    /* background-color: blue; */
+    background-image: url(../img/IMG_0265.JPG);
+    background-size: cover;
+    width:calc(50% - 2.5px);
+    height: calc(50% - 2.5px);
+    margin-top: 2.5px;
+    float: left;
+
+}
